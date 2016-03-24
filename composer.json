@@ -1,0 +1,25 @@
+{
+	"name": "linkorb/tty",
+    "description": "TTY/PTY library",
+    "homepage": "https://github.com/linkorb/tty",
+    "keywords": ["tty", "pty", "ttyrec", "vt100", "xterm", "terminal", "emulator", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tty\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
